@@ -15,7 +15,7 @@ const Experience = () => {
         </div>
        
         <div>
-        <div className='flex justify-between px-96  h-full py-20 items-center'>
+        <div className='flex h-full py-20 justify-center items-center gap-56 '>
           <div>
             <img src={drinks} alt="" className='w-[450px]  rounded-xl border-4 drop-shadow-2xl ' />
           </div>
@@ -40,7 +40,7 @@ const Experience = () => {
         </div>
 
         <div>
-        <div className='flex justify-between px-96  h-full py-20 items-center'>
+        <div className='flex h-full py-20 justify-center items-center gap-56 '>
           <div className='flex flex-col'>
             <div>
             <h1 className='text-4xl  font-semibold py-4'>Hakuna Matata Cafe</h1>
