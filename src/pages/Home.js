@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from './components/Layout'
 import img from "../image/img.jpg"
 import { Link } from 'react-router-dom'
+import Affan from "../image/Affan.CV.2024.pdf"
 
 const Home = () => {
   return (
@@ -16,8 +17,11 @@ const Home = () => {
                     </div>
                     {/* <h1 className='w-[600px]'>A motivated and hardworking Software Developer with a focus on JavaScript, eager to begin a career in tech. Skilled in JavaScript fundamentals and actively learning frameworks like React and Node.js. Known for problem-solving abilities, a commitment to clean code, and a passion for continuous learning. Excited to contribute to a collaborative team and develop innovative solutions while expanding technical skills.</h1> */}
                   <div className='py-3'>
-                    <button className='text-2xl px-5 py-2 border-2 border-black rounded-full mx-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ' >Download CV</button>
-                    <Link to="contact" className='text-2xl px-5 py-2 border-2 border-black rounded-full mx-2 bg-black text-white'>Contact Info</Link>
+                    <div className='flex'>
+                        <a href={Affan} download="resume" className="download btn text-2xl px-10 py-2 border-2 border-black rounded-full mx-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 " >Download</a>
+                        <Link to="contact" className='text-2xl px-5 py-2 border-2 border-black rounded-full mx-2 bg-black text-white'>Contact Info</Link>
+                    </div>
+                    
                   </div>
                 </div>
                 <div>
