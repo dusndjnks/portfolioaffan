@@ -17,12 +17,14 @@ const Projects = () => {
         <div className='px-72 pb-20 '>
           <div className='flex justify-between items-center'>
             <div>
-              <h1 className='text-lg text-gray-600'>Clouning</h1>
-              <h1 className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600'>VS Code Clone</h1>
+              <h1 className='text-lg text-gray-600'>UI/UX Design</h1>
+              <h className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600'>VS Code Clone</h>
               <h1 className='text-lg text-blue-800'>JavaScript,HTML,Tailwind CSS,Github,React</h1>
             </div>
             <div>
+              <a href="https://mhd-vscode-clone.netlify.app/">
               <img src={pp3} alt="" className='h-[350px] bg-blue-500 p-2' />
+              </a>
             </div>
           </div>
         </div>
@@ -31,7 +33,9 @@ const Projects = () => {
         <div className='px-72 py-20 '>
           <div className='flex justify-between items-center'>
           <div>
-              <img src={pp2} alt="" className='h-[350px] bg-yellow-300 p-2' />
+            <a href="https://dusndjnks.github.io/RouterDom/">
+            <img src={pp2} alt="" className='h-[350px] bg-yellow-300 p-2' />
+            </a>
             </div>
             <div>
               <h1 className='text-lg text-yellow-600'>Ecommerce Site</h1>
@@ -50,7 +54,9 @@ const Projects = () => {
               <h1 className='text-lg text-orange-800'>JavaScript,HTML,Tailwind CSS,React,Github,Netlify(Nested Route)</h1>
             </div>
             <div>
+              <a href="https://mhdpatekphilippe.netlify.app/">
               <img src={pp1} alt="" className='h-[350px] bg-orange-300 p-2' />
+              </a>
             </div>
           </div>
         </div>
@@ -62,10 +68,12 @@ const Projects = () => {
         <div className='px-72 py-20 '>
           <div className='flex justify-between items-center'>
           <div>
-              <img src={pp4} alt="" className='h-[350px] bg-green-500 p-2' />
+            <a href="https://mhd-plant-homepage.netlify.app/">
+            <img src={pp4} alt="" className='h-[350px] bg-green-500 p-2' />
+            </a>
             </div>
             <div className='pr-10'>
-              <h1 className='text-lg text-blue-600'>Design</h1>
+              <h1 className='text-lg text-blue-600'>UI/UX Design</h1>
               <h1 className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-800'>Plant Store</h1>
               <h1 className='text-lg text-green-800'>JavaScript,HTML,Tailwind CSS,Github</h1>
             </div>

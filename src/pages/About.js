@@ -19,9 +19,9 @@ const About = () => {
     </div>
 
 <div>
-<div className='flex justify-between px-80  h-full py-20 items-center'>
+<div className='flex justify-center gap-40 h-full py-20 items-center'>
   <div>
-    <img src={img3} alt="" className='w-[350px] h-[350px] rounded-xl border-4 drop-shadow-2xl ' />
+    <img src={img3} alt="" className='w-96 h-96 rounded-xl border-4 drop-shadow-2xl ' />
   </div>
   <div className='flex flex-col'>
     <div className='flex gap-4'>
