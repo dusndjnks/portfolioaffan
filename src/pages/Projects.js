@@ -10,12 +10,13 @@ const Projects = () => {
   return (
     <Layout>
         <div className='bg-gray-300'>
-<div className='w-screen   flex items-center justify-center  '>
-          <h1 className='text-6xl text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 pb-20 pt-10 '>Projects</h1>
-        </div>
+            <div className='w-screen   flex items-center justify-center  '>
+                <h1 className='text-6xl text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 pb-20 pt-10 '>Projects</h1>
+            </div>
 
-        <div className='px-72 pb-20 '>
-          <div className='flex justify-between items-center'>
+      <div className='px-64 flex flex-col gap-20 pb-20'>
+      <div className=''>
+          <div className='flex justify-center gap-32 items-center'>
             <div>
               <h1 className='text-lg text-gray-600'>UI/UX Design</h1>
               <h className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600'>VS Code Clone</h>
@@ -29,9 +30,8 @@ const Projects = () => {
           </div>
         </div>
 
-
-        <div className='px-72 py-20 '>
-          <div className='flex justify-between items-center'>
+        <div className=''>
+          <div className='flex justify-center gap-32 items-center'>
           <div>
             <a href="https://dusndjnks.github.io/RouterDom/">
             <img src={pp2} alt="" className='h-[350px] bg-yellow-300 p-2' />
@@ -44,10 +44,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        
-        <div className='px-72'>
-          <div className='flex justify-between items-center'>
+     
+        <div className=''>
+          <div className='flex justify-center gap-32 items-center'>
             <div>
               <h1 className='text-lg text-red-800'>Ecommerce Site</h1>
               <h1 className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-800'>Watch Store</h1>
@@ -61,12 +60,8 @@ const Projects = () => {
           </div>
         </div>
 
-        
-
-        
-
-        <div className='px-72 py-20 '>
-          <div className='flex justify-between items-center'>
+        <div className=''>
+          <div className='flex justify-center gap-32 items-center'>
           <div>
             <a href="https://mhd-plant-homepage.netlify.app/">
             <img src={pp4} alt="" className='h-[350px] bg-green-500 p-2' />
@@ -79,6 +74,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </div>
 </div>
     </Layout>
   )
