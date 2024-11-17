@@ -20,8 +20,8 @@ const About = () => {
 
 <div>
 <div className='flex justify-center gap-40 h-full py-20 items-center'>
-  <div>
-    <img src={img3} alt="" className='w-96 h-96 rounded-xl border-4 drop-shadow-2xl ' />
+  <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
+    <img src={img3} alt="" className=' hover:transition ease-in-out  w-96 h-96 rounded-xl border-4 drop-shadow-2xl ' />
   </div>
   <div className='flex flex-col'>
     <div className='flex gap-4'>

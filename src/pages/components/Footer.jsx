@@ -2,26 +2,20 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-         <div className='bg-gray-200'>
+         <div className='bg-gray-200 h-24'>
         <div>
             <hr  className='border border-black '/>
         </div>
-        <footer className='h-24 '>
-	<div className="flex justify-between  px-20 items-center h-24">
-		<div className='flex gap-8'>
-            <h1>Terms of Use</h1>
-            <h1>Privacy</h1>
-		</div>
-        <div className='flex gap-8'>
-            <h1>Instagram</h1>
-            <h1>Facebook</h1>
-            <h1>Twitter</h1>
+
+        <div className='flex gap-20 items-center justify-center h-24 text-2xl font-serif'>
+          <a href="https://www.instagram.com/a_ffan/profilecard/?igsh=MWM0dm81bXNncWhobA==">Instagarm</a>
+          <a href="https://www.linkedin.com/in/muhammed-affan-87456724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
+          <a href="https://github.com/dusndjnks">GitHub</a>
         </div>
-	</div>
-</footer>
+
+
+      
         </div>
-    </div>
   )
 }
 

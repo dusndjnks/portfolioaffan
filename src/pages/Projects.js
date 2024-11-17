@@ -22,7 +22,7 @@ const Projects = () => {
               <h className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600'>VS Code Clone</h>
               <h1 className='text-lg text-blue-800'>JavaScript,HTML,Tailwind CSS,Github,React</h1>
             </div>
-            <div>
+            <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
               <a href="https://mhd-vscode-clone.netlify.app/">
               <img src={pp3} alt="" className='h-[350px] bg-blue-500 p-2' />
               </a>
@@ -32,7 +32,7 @@ const Projects = () => {
 
         <div className=''>
           <div className='flex justify-center gap-32 items-center'>
-          <div>
+          <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
             <a href="https://dusndjnks.github.io/RouterDom/">
             <img src={pp2} alt="" className='h-[350px] bg-yellow-300 p-2' />
             </a>
@@ -52,7 +52,7 @@ const Projects = () => {
               <h1 className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-800'>Watch Store</h1>
               <h1 className='text-lg text-orange-800'>JavaScript,HTML,Tailwind CSS,React,Github,Netlify(Nested Route)</h1>
             </div>
-            <div>
+            <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
               <a href="https://mhdpatekphilippe.netlify.app/">
               <img src={pp1} alt="" className='h-[350px] bg-orange-300 p-2' />
               </a>
@@ -62,7 +62,7 @@ const Projects = () => {
 
         <div className=''>
           <div className='flex justify-center gap-32 items-center'>
-          <div>
+          <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
             <a href="https://mhd-plant-homepage.netlify.app/">
             <img src={pp4} alt="" className='h-[350px] bg-green-500 p-2' />
             </a>
