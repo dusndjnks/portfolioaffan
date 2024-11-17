@@ -14,7 +14,7 @@ const Projects = () => {
                 <h1 className='text-6xl text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 pb-20 pt-10 '>Projects</h1>
             </div>
 
-      <div className='px-64 flex flex-col gap-20 pb-20'>
+      <div className='px-64 flex flex-col gap-14 pb-20'>
       <div className=''>
           <div className='flex justify-center gap-32 items-center'>
             <div>
