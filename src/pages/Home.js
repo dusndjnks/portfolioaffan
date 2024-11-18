@@ -7,8 +7,7 @@ import Affan from "../image/Affan.CV.2024.pdf"
 const Home = () => {
   return (
     <Layout>
-        <div>
-        <div className='md:flex-row justify-between flex flex-col lg:px-28 md:px-14 sm:px-20 px-10 h-full lg:py-20 md:py-14 py-10 items-center  text-white bg-gray-800 gap-10'>
+        <div className='md:flex-row justify-between flex flex-col 2xl:px-72 xl:px-56 lg:px-32 md:px-14 sm:px-20 px-10 h-full lg:py-20 md:py-14 py-10 items-center  text-white bg-gray-800 gap-10'>
                 <div>
                     <img src={img} alt="" className='lg:w-[350px] md:w-[300px] sm:w-[230px] s:w-[250px] xs:w-[200px]  rounded-2xl' />
                 </div>
@@ -24,7 +23,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
     </Layout>
   )
 }
