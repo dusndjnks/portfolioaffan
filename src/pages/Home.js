@@ -9,7 +9,7 @@ const Home = () => {
     <Layout>
         <div className='md:flex-row justify-between flex flex-col 2xl:px-72 xl:px-56 lg:px-32 md:px-14 sm:px-20 px-5  lg:py-20 md:py-14 py-10 items-center  text-white bg-gray-800 gap-10'>
                 <div>
-                    <img src={img} alt="" className='lg:w-[350px] md:w-[300px] w-[250px]   rounded-2xl' />
+                    <img src={img} alt="" className='lg:w-[350px] md:w-[300px] w-[280px]   rounded-2xl' />
                 </div>
                 <div className='flex flex-col'>
                     <div className=''>
