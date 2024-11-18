@@ -11,7 +11,7 @@ const Navbar = () => {
     
   return (
         <div className="font-serif bg-gray-300 justify-center h-24 items-center  ">
-            <nav className={`flex h-24  justify-between duration-500 bg-gray-300  md:px-20 px-10 md:static ${extendNavbar ? "h-72 pt-8" : "h-24 items-center"}`}>
+            <nav className={`flex h-24  justify-between duration-500 bg-gray-300 relative md:px-20 px-10 md:static ${extendNavbar ? "h-72 pt-8" : "h-24 items-center"}`}>
                 <div>
                     <Link to="/" className='md:text-5xl text-3xl s:text-4xl h-24 items-center '>Affan</Link>
                 </div>
