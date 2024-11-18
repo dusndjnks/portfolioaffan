@@ -1,14 +1,14 @@
 import React from 'react'
 import Layout from './components/Layout'
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
+// import LocationOnIcon from '@mui/icons-material/LocationOn';
+// import PhoneIcon from '@mui/icons-material/Phone';
+// import EmailIcon from '@mui/icons-material/Email';
 
 
 const Contact = () => {
   return (
    <Layout>
-     <div className='bg-gray-900 h-screen text-white'>
+     {/* <div className='bg-gray-900 h-screen text-white'>
       <div className='w-screen flex items-center  justify-center'>
           <h1 className='text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-20 '>Get In Touch</h1>
         </div>
@@ -31,7 +31,7 @@ const Contact = () => {
               </div>
           </div>
         </div>
-      </div>
+      </div> */}
    </Layout>
   )
 }
