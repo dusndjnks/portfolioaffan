@@ -9,6 +9,7 @@ const Contact = () => {
   return (
    <Layout>
      <div className='bg-gray-900 h-screen text-white '>
+     <hr className='border-2 border-black'/>
       <div className='w-screen flex items-center  justify-center'>
           <h1 className='lg:text-6xl md:text-4xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 md:py-20 py-5 '>Get In Touch</h1>
         </div>
@@ -32,6 +33,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <hr className='border-2 border-black'/>
    </Layout>
   )
 }

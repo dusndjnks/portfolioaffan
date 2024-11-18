@@ -9,6 +9,7 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 const Experience = () => {
   return (
     <Layout>
+          <hr className='border-2 border-black'/>
                  <div className='bg-gray-300'>
         <div className='flex flex-col items-center justify-center '>
               <h1 className='text-6xl font-semibold pt-10'>Experience</h1>
@@ -64,6 +65,7 @@ const Experience = () => {
         </div>
         </div>
         </div>
+        <hr className='border-2 border-black'/>
     </Layout>
   )
 }

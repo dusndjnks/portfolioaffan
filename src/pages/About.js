@@ -10,7 +10,7 @@ const About = () => {
   return (
    <Layout>
     <div className=' flex flex-col bg-gray-300'>
-
+    <hr className='border-2 border-black'/>
     <div className='flex flex-col items-center justify-center '>
       <h1 className='lg:text-6xl md:text-5xl  sm:text-4xl text-3xl font-semibold pt-5'>About Me</h1>
       <h1 className='md:text-2xl text-xl'>My Introdution</h1>
@@ -116,6 +116,10 @@ const About = () => {
             </div>
     </div>
    </div> */}
+  
+
+
+  <hr className='border-2 border-black'/>
 
 </div>
    </Layout>

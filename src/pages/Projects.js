@@ -9,6 +9,7 @@ import pp4 from "../image/pp4.png"
 const Projects = () => {
   return (
     <Layout>
+      <hr className='border-2 border-black'/>
         <div className='bg-gray-300'>
             <div className='w-screen   flex items-center justify-center  '>
                 <h1 className='text-6xl text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 pb-20 pt-10 '>Projects</h1>
@@ -76,6 +77,7 @@ const Projects = () => {
         </div>
       </div>
 </div>
+<hr className='border-2 border-black'/>
     </Layout>
   )
 }
