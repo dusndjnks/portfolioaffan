@@ -19,7 +19,7 @@ const About = () => {
        <div className='px-8'>
      <div className='md:flex-row flex flex-col justify-center h-full xl:gap-20 lg:gap-12 md:gap-12 md:py-20 py-10 items-center'>
      <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
-       <img src={img3} alt="" className='z-[-1] hover:transition ease-in-out lg:w-96 lg:h-96  md:w-80 md:h-80 w-56 h-56  rounded-xl border-4 drop-shadow-2xl ' />
+       <img src={img3} alt="" className='z-[-1] hover:transition ease-in-out lg:w-[350px] md:w-[300px] w-[280px]  rounded-xl border-4 drop-shadow-2xl ' />
      </div>
      <div className='flex flex-col items-center justify-center md:pt-0 pt-5 '>
        <div className='flex items-center justify-center gap-4'>
