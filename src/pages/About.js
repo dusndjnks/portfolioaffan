@@ -23,17 +23,17 @@ const About = () => {
      </div>
      <div className='flex flex-col items-center justify-center md:pt-0 pt-5 '>
        <div className='flex items-center justify-center gap-4'>
-         <div className='border-4 drop-shadow-2xl lg:h-32 lg:w-32 md:w-24 md:h-24 w-20 h-20  rounded-xl  bg-gray-100 flex flex-col  items-center justify-center'>
+         <div className='border-4 drop-shadow-2xl lg:h-32 lg:w-32 md:w-24 md:h-24 w-24 h-24  rounded-xl  bg-gray-100 flex flex-col  items-center justify-center'>
            <WorkHistoryIcon/>
              <h1 className='lg:text-2xl md:text-lg text-md'>Experience</h1>
              <h1 className='lg:text-lg md:text-md text-sm'>9 Months</h1>
          </div> 
-         <div className='border-4 lg:h-32 lg:w-32 md:w-24 md:h-24 h-20 w-20  rounded-xl drop-shadow-2xl bg-gray-100 flex flex-col  items-center justify-center'>
+         <div className='border-4 lg:h-32 lg:w-32 md:w-24 md:h-24 h-24 w-24  rounded-xl drop-shadow-2xl bg-gray-100 flex flex-col  items-center justify-center'>
            <WorkIcon/>
              <h1 className='lg:text-2xl md:text-lg text-md'>Completed</h1>
              <h1 className='lg:text-lg md:text-md text-sm'>4 Projects</h1>
          </div> 
-        <div className='border-4 lg:h-32 lg:w-32 md:w-24 md:h-24 w-20 h-20  rounded-xl drop-shadow-2xl bg-gray-100 flex flex-col  items-center justify-center'>
+        <div className='border-4 lg:h-32 lg:w-32 md:w-24 md:h-24 w-24 h-24  rounded-xl drop-shadow-2xl bg-gray-100 flex flex-col  items-center justify-center'>
          <PhoneIcon/>
              <h1 className='lg:text-2xl md:text-lg text-md'>Contact</h1>
              <h1 className='lg:text-lg md:text-md text-sm'>7736999627</h1>
@@ -53,7 +53,7 @@ const About = () => {
 
 
    <div className='lg:flex-row flex flex-col  justify-between xl:px-72 lg:px-14 s:px-20 px-10 lg:py-20 md:py-12 py-5 lg:gap-10 md:gap-12 gap-5'>
-   <div className=' gap-9 border-4  rounded-xl md:px-16  px-5 py-2 md:py-7 drop-shadow-2xl bg-gray-100 flex flex-col items-center ' >
+   <div className='gap-9 border-4  rounded-xl md:px-16 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center  ' >
     <h1 className='lg:text-3xl md:text-xl text-lg font-bold underline'>Frontend Skill</h1>
             <div className='flex gap-10 md:gap-40 lg:gap-12'>
             <div className=''>
