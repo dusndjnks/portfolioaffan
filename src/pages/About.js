@@ -52,70 +52,70 @@ const About = () => {
 
 
 
-   {/* <div className='flex justify-between px-72 py-20 '>
-   <div className=' gap-9 border-4  rounded-xl px-16 py-7 drop-shadow-2xl bg-gray-100 flex flex-col items-center ' >
-    <h1 className='text-3xl font-bold underline'>Frontend Skill</h1>
-            <div className='flex gap-10'>
+   <div className='lg:flex-row flex flex-col  justify-between xl:px-72 lg:px-14 s:px-20 px-10 lg:py-20 md:py-12 py-5 lg:gap-10 md:gap-12 gap-5'>
+   <div className=' gap-9 border-4  rounded-xl md:px-16  px-5 py-2 md:py-7 drop-shadow-2xl bg-gray-100 flex flex-col items-center ' >
+    <h1 className='lg:text-3xl md:text-xl text-lg font-bold underline'>Frontend Skill</h1>
+            <div className='flex gap-10 md:gap-40 lg:gap-12'>
             <div className=''>
               <div>
-              <h1 className='text-2xl font-semibold'>HTML</h1>
-              <h1 className='text-lg'>Basic</h1>
+              <h1 className='md:text-2xl s:text-xl  font-semibold'>HTML</h1>
+              <h1 className='s:text-lg'>Basic</h1>
               </div>
               <div>
-              <h1 className='text-2xl font-semibold'>CSS</h1>
-              <h1 className='text-lg'>Basic</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>CSS</h1>
+              <h1 className='s:text-lg'>Basic</h1>
               </div>
               <div>
-              <h1 className='text-2xl font-semibold'>Tailwind CSS</h1>
-              <h1 className='text-lg'>Advanced</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>Tailwind CSS</h1>
+              <h1 className='s:text-lg'>Advanced</h1>
               </div>
             </div>
             <div>
               <div>
-              <h1 className='text-2xl font-semibold'>Bootstrap</h1>
-              <h1 className='text-lg'>Below Average</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>Bootstrap</h1>
+              <h1 className='s:text-lg'>Below Average</h1>
               </div>
               <div>
-              <h1 className='text-2xl font-semibold'>Git</h1>
-              <h1 className='text-lg'>Good</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>Git</h1>
+              <h1 className='s:text-lg'>Good</h1>
               </div>
               <div>
-              <h1 className='text-2xl font-semibold'>React</h1>
-              <h1 className='text-lg'>Basic</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>React</h1>
+              <h1 className='s:text-lg'>Basic</h1>
               </div>
             </div>
             </div>
     </div>
-    <div className=' gap-9 border-4  rounded-xl px-16 py-7 drop-shadow-2xl bg-gray-100 flex flex-col items-center ' >
-    <h1 className='text-3xl font-bold underline'>Backend Skill</h1>
-            <div className='flex gap-10'>
+    <div className=' gap-9 border-4  rounded-xl md:px-16 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center  ' >
+    <h1 className='lg:text-3xl md:text-xl text-lg font-bold underline'>Backend Skill</h1>
+            <div className='flex gap-10  md:gap-40 lg:gap-12'>
             <div className=''>
               <div>
-              <h1 className='text-2xl font-semibold'>JavaScript</h1>
-              <h1 className='text-lg'>Basic</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>JavaScript</h1>
+              <h1 className='s:text-lg'>Basic</h1>
               </div>
               <div>
-              <h1 className='text-2xl font-semibold'>React</h1>
-              <h1 className='text-lg'>Basic</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>React</h1>
+              <h1 className='s:text-lg'>Basic</h1>
               </div>
               <div>
-              <h1 className='text-2xl font-semibold'>Mongo DB</h1>
-              <h1 className='text-lg'>Advanced</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>Mongo DB</h1>
+              <h1 className='s:text-lg'>Advanced</h1>
               </div>
             </div>
             <div>
               <div>
-              <h1 className='text-2xl font-semibold'>Node JS</h1>
-              <h1 className='text-lg'>Below Average</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>Node JS</h1>
+              <h1 className='s:text-lg'>Below Average</h1>
               </div>
               <div>
-              <h1 className='text-2xl font-semibold'>GitHub</h1>
-              <h1 className='text-lg'>Good</h1>
+              <h1 className='md:text-2xl  s:text-xl   font-semibold'>GitHub</h1>
+              <h1 className='s:text-lg'>Good</h1>
               </div>
             </div>
             </div>
     </div>
-   </div> */}
+   </div>
   
 
 
