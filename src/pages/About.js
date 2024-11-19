@@ -59,7 +59,7 @@ const About = () => {
             <div className=''>
               <div>
               <h1 className='md:text-2xl s:text-xl  font-semibold'>HTML</h1>
-              <h1 className='s:text-lg'>Basic</h1>
+              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>CSS</h1>
@@ -73,15 +73,15 @@ const About = () => {
             <div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>Bootstrap</h1>
-              <h1 className='s:text-lg'>Below Average</h1>
+              <h1 className='s:text-lg'>Basic</h1>
               </div>
               <div>
-              <h1 className='md:text-2xl s:text-xl font-semibold'>Git</h1>
-              <h1 className='s:text-lg'>Good</h1>
+              <h1 className='md:text-2xl s:text-xl font-semibold'>GitHub</h1>
+              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>React</h1>
-              <h1 className='s:text-lg'>Basic</h1>
+              <h1 className='s:text-lg'>Advanced</h1>
               </div>
             </div>
             </div>
@@ -92,11 +92,11 @@ const About = () => {
             <div className=''>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>JavaScript</h1>
-              <h1 className='s:text-lg'>Basic</h1>
+              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>React</h1>
-              <h1 className='s:text-lg'>Basic</h1>
+              <h1 className='s:text-lg'>Advanced</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>Mongo DB</h1>
@@ -106,11 +106,11 @@ const About = () => {
             <div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>Node JS</h1>
-              <h1 className='s:text-lg'>Below Average</h1>
+              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl  s:text-xl   font-semibold'>GitHub</h1>
-              <h1 className='s:text-lg'>Good</h1>
+              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
             </div>
             </div>
