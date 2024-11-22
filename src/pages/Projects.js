@@ -12,26 +12,24 @@ const Projects = () => {
       <hr className='border-2 border-black'/>
 <div className='bg-gray-300'>
             <div className='w-screen   flex items-center justify-center  '>
-                <h1 className='text-6xl text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 pb-20 pt-10 '>Projects</h1>
+                <h1 className='lg:text-6xl md:text-5xl  sm:text-4xl text-3xl font-semibold pt-5 pb-10 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  '>Projects</h1>
             </div>
 
-    <div className='px-64 flex flex-col gap-14 pb-20'>
-      <div className=''>
-          <div className='flex justify-center gap-32 items-center'>
+    <div className='2xl:px-64 xl:px-56 lg:px- md:px-20 sm:px-16 s:px-12 px-6  flex flex-col gap-14 pb-20'>
+          <div className='md:flex-row flex flex-col justify-center 2xl:gap-32 xl:gap-28 lg:gap-16 md:gap-14 sm:gap-8 gap-4 l items-center'>
             <div>
-              <h1 className='text-lg text-gray-600'>UI/UX Design</h1>
-              <h className='text-5xl underline text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600'>VS Code Clone</h>
+              <h1 className='lg:text-lg md:text-md text-sm text-gray-600'>UI/UX Design</h1>
+              <h className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl underline  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600'>VS Code Clone</h>
               <h1 className='text-lg text-blue-800'>JavaScript,HTML,Tailwind CSS,Github,React</h1>
             </div>
             <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
               <a href="https://mhd-vscode-clone.netlify.app/">
-              <img src={pp3} alt="" className='h-[350px] bg-blue-500 p-2' />
+              <img src={pp3} alt="" className='lg:h-[350px] md: bg-blue-500 p-2' />
               </a>
             </div>
           </div>
-        </div>
 
-        <div className=''>
+        {/* <div className=''>
           <div className='flex justify-center gap-32 items-center'>
           <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
             <a href="https://dusndjnks.github.io/RouterDom/">
@@ -74,10 +72,13 @@ const Projects = () => {
               <h1 className='text-lg text-green-800'>JavaScript,HTML,Tailwind CSS,Github</h1>
             </div>
           </div>
-        </div>
+        </div> */}
 
     </div>
 </div>
+
+
+
 <hr className='border-2 border-black'/>
     </Layout>
   )

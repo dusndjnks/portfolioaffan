@@ -19,7 +19,7 @@ const Experience = () => {
         <div className='md:flex-row flex flex-col lg:px-12 h-full lg:py-20 py-7 justify-center items-center lg:gap-56 gap-10 '>
           <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
             <img src={drinks} alt="" className='2xl:w-[450px] lg:w-[550px] md:w-[400px] sm:w-[400px]
-            s:w-[320px] w-[250px]  rounded-xl border-4 drop-shadow-2xl ' />
+            s:w-[320px] w-[250px]  rounded-xl border-4' />
           </div>
           <div className='flex flex-col'>
             <div className='flex justify-center'>
@@ -45,7 +45,7 @@ const Experience = () => {
         <div className='md:flex-row flex flex-col lg:px-12 h-full lg:py-20 py-7 justify-center items-center lg:gap-56 gap-10 '>
           <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
             <img src={ser} alt="" className='2xl:w-[450px] lg:w-[550px] md:w-[400px] sm:w-[400px]
-            s:w-[320px] w-[250px]  rounded-xl border-4 drop-shadow-2xl ' />
+            s:w-[320px] w-[250px]  rounded-xl border-4  ' />
           </div>
           <div className='flex flex-col'>
             <div className='flex justify-center'>
