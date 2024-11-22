@@ -12,11 +12,11 @@ const Projects = () => {
       <hr className='border-2 border-black'/>
 <div className='bg-gray-300'>
             <div className='w-screen   flex items-center justify-center  '>
-                <h1 className='lg:text-6xl md:text-5xl  sm:text-4xl text-3xl font-semibold pt-5 pb-10 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  '>Projects</h1>
+                <h1 className='lg:text-6xl md:text-5xl text-4xl  font-semibold pt-5 pb-10 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  '>Projects</h1>
             </div>
 
-    <div className='2xl:px-64 xl:px-56 lg:px- md:px-20 sm:px-16 s:px-12 px-6  flex flex-col gap-14 pb-20'>
-          <div className='md:flex-row flex flex-col justify-center 2xl:gap-32 xl:gap-18 lg:gap-8 md:gap-14 sm:gap-8 gap-4 l items-center'>
+    <div className='2xl:px-64 xl:px-56 lg:px- md:px-20 sm:px-16 s:px-12 px-4  flex flex-col gap-20 pb-20 '>
+          <div className='md:flex-row flex flex-col-reverse	 justify-center 2xl:gap-32 xl:gap-18 lg:gap-8 md:gap-14 sm:gap-8 gap-4 l items-center'>
             <div>
               <h1 className='lg:text-lg md:text-md text-sm text-gray-600'>UI/UX Design</h1>
               <h className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl underline  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600'>VS Code Clone</h>
@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
      
         <div className=''>
-          <div className='md:flex-row flex flex-col justify-center 2xl:gap-32 xl:gap-28 lg:gap-16 md:gap-14 sm:gap-8 gap-4 l items-center'>
+          <div className='md:flex-row flex flex-col-reverse justify-center 2xl:gap-32 xl:gap-28 lg:gap-16 md:gap-14 sm:gap-8 gap-4 l items-center'>
             <div>
               <h1 className='lg:text-lg md:text-md text-sm text-red-800'>Ecommerce Site</h1>
               <h1 className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl underline    font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-800'>Watch Store</h1>
@@ -73,7 +73,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
     </div>
 </div>
 

@@ -15,11 +15,10 @@ const Experience = () => {
               <h1 className='lg:text-6xl md:text-5xl  sm:text-4xl text-3xl font-semibold pt-10'>Experience</h1>
         </div>
        
-        <div>
-        <div className='md:flex-row flex flex-col lg:px-12 h-full lg:py-20 py-7 justify-center items-center lg:gap-56 gap-10 '>
+        <div className='md:flex-row flex flex-col lg:px-12 h-full lg:py-20 py-7 justify-center items-center lg:gap-56 md:gap-20 gap-2 px-4 '>
           <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
             <img src={drinks} alt="" className='2xl:w-[450px] lg:w-[550px] md:w-[400px] sm:w-[400px]
-            s:w-[320px] w-[250px]  rounded-xl border-4' />
+            s:w-[320px]    rounded-xl border-4' />
           </div>
           <div className='flex flex-col'>
             <div className='flex justify-center'>
@@ -39,14 +38,8 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        </div>
         
-        <div>
-        <div className='md:flex-row flex flex-col lg:px-12 h-full lg:py-20 py-7 justify-center items-center lg:gap-56 gap-10 '>
-          <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
-            <img src={ser} alt="" className='2xl:w-[450px] lg:w-[550px] md:w-[400px] sm:w-[400px]
-            s:w-[320px] w-[250px]  rounded-xl border-4  ' />
-          </div>
+        <div className='md:flex-row flex flex-col-reverse lg:px-12 h-full lg:py-20 py-7 justify-center items-center lg:gap-56 md:gap-20 gap-2 px-4 xs:pt-14 pt-1'>
           <div className='flex flex-col'>
             <div className='flex justify-center'>
             <h1 className='lg:text-4xl md:text-2xl text-xl  font-semibold py-4'>Hakuna Matata Cafe</h1>
@@ -64,7 +57,10 @@ const Experience = () => {
               </div>
             </div>
           </div>
-        </div>
+          <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
+            <img src={ser} alt="" className='2xl:w-[450px] lg:w-[550px] md:w-[400px] sm:w-[400px]
+            s:w-[320px]    rounded-xl border-4 ' />
+          </div>
         </div>
     </div>
 
