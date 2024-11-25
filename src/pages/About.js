@@ -53,7 +53,7 @@ const About = () => {
 
 
    <div className='md:flex-row flex flex-col justify-between xl:px-72 lg:px-14  s:px-20 px-10 lg:py-20 md:py-12 py-5 lg:gap-10 md:gap-10 gap-5'>
-   <div className='gap-9 border-4  rounded-xl md:px-10 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center  ' >
+   <div className='md:gap-8 gap-4 border-4 rounded-xl md:px-10 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center  ' >
     <h1 className='lg:text-3xl md:text-xl text-lg font-bold underline'>Frontend Skill</h1>
             <div className='flex gap-5 md:gap-8 lg:gap-12'>
             <div className='flex flex-col gap-2'>
@@ -80,7 +80,7 @@ const About = () => {
             </div>
             </div>
     </div>
-    <div className='gap-9 border-4  rounded-xl md:px-10 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center' >
+    <div className='md:gap-8 gap-4 border-4  rounded-xl md:px-10 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center' >
     <h1 className='lg:text-3xl md:text-xl text-lg font-bold underline'>Backend Skill</h1>
             <div className='flex gap-5  md:gap-8 lg:gap-12'>
             <div className='flex flex-col gap-2'>
