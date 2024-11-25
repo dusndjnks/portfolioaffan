@@ -9,7 +9,7 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 const About = () => {
   return (
    <Layout>
-    <div className=' flex flex-col bg-gray-300'>
+    <div className=' flex flex-col bg-gray-300 px-'>
     <hr className='border-2 border-black'/>
     <div className='flex flex-col items-center justify-center '>
       <h1 className='lg:text-6xl md:text-5xl  sm:text-4xl text-3xl font-semibold pt-5'>About Me</h1>
@@ -52,65 +52,54 @@ const About = () => {
 
 
 
-   <div className='lg:flex-row flex flex-col  justify-between xl:px-72 lg:px-14 s:px-20 px-10 lg:py-20 md:py-12 py-5 lg:gap-10 md:gap-12 gap-5'>
-   <div className='gap-9 border-4  rounded-xl md:px-16 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center  ' >
+   <div className='md:flex-row flex flex-col justify-between xl:px-72 lg:px-14  s:px-20 px-10 lg:py-20 md:py-12 py-5 lg:gap-10 md:gap-10 gap-5'>
+   <div className='gap-9 border-4  rounded-xl md:px-10 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center  ' >
     <h1 className='lg:text-3xl md:text-xl text-lg font-bold underline'>Frontend Skill</h1>
-            <div className='flex gap-10 md:gap-40 lg:gap-12'>
-            <div className=''>
+            <div className='flex gap-5 md:gap-8 lg:gap-12'>
+            <div className='flex flex-col gap-2'>
               <div>
               <h1 className='md:text-2xl s:text-xl  font-semibold'>HTML</h1>
-              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>CSS</h1>
-              <h1 className='s:text-lg'>Basic</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>Tailwind CSS</h1>
-              <h1 className='s:text-lg'>Advanced</h1>
               </div>
             </div>
-            <div>
+            <div className='flex flex-col gap-2'>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>Bootstrap</h1>
-              <h1 className='s:text-lg'>Basic</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>GitHub</h1>
-              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>React</h1>
-              <h1 className='s:text-lg'>Advanced</h1>
               </div>
             </div>
             </div>
     </div>
-    <div className=' gap-9 border-4  rounded-xl md:px-16 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center  ' >
+    <div className='gap-9 border-4  rounded-xl md:px-10 px-3 py-5 drop-shadow-2xl bg-gray-100 flex flex-col items-center' >
     <h1 className='lg:text-3xl md:text-xl text-lg font-bold underline'>Backend Skill</h1>
-            <div className='flex gap-10  md:gap-40 lg:gap-12'>
-            <div className=''>
+            <div className='flex gap-5  md:gap-8 lg:gap-12'>
+            <div className='flex flex-col gap-2'>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>JavaScript</h1>
-              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>React</h1>
-              <h1 className='s:text-lg'>Advanced</h1>
               </div>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>Mongo DB</h1>
-              <h1 className='s:text-lg'>Advanced</h1>
               </div>
             </div>
-            <div>
+            <div className='flex flex-col gap-2'>
               <div>
               <h1 className='md:text-2xl s:text-xl font-semibold'>Node JS</h1>
-              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
               <div>
               <h1 className='md:text-2xl  s:text-xl   font-semibold'>GitHub</h1>
-              <h1 className='s:text-lg'>Intermediate</h1>
               </div>
             </div>
             </div>
