@@ -21,7 +21,7 @@ const Projects = () => {
     <div className=''>
           <div className='md:flex-row flex flex-col justify-center 2xl:gap-32 xl:gap-28 lg:gap-16 md:gap-14 sm:gap-8 gap-4 l items-center'>
           <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
-            <a href="https://mhd-plant-homepage.netlify.app/">
+            <a href="https://affan-portfolio03.netlify.app/">
             <img src={pp5} alt="" className='lg:h-[350px] bg-purple-600 p-2' />
             </a>
             </div>
