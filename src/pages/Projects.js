@@ -52,7 +52,7 @@ const Projects = () => {
         <div className=''>
           <div className='md:flex-row flex flex-col justify-center 2xl:gap-32 xl:gap-18 lg:gap-16 md:gap-14 sm:gap-8 gap-4 l items-center'>
           <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
-            <a href="https://dusndjnks.github.io/RouterDom/">
+            <a href="https://legacyelegance-mhd.netlify.app/">
             <img src={pp2} alt="" className='lg:h-[350px] bg-yellow-300 p-2' />
             </a>
             </div>
