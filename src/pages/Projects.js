@@ -18,22 +18,6 @@ const Projects = () => {
 
     <div className='2xl:px-64 xl:px-56 lg:px- md:px-20 sm:px-16 s:px-12 px-4  flex flex-col gap-20 pb-20 '>
 
-    <div className=''>
-          <div className='md:flex-row flex flex-col justify-center 2xl:gap-32 xl:gap-28 lg:gap-16 md:gap-14 sm:gap-8 gap-4 l items-center'>
-          <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
-            <a href="https://affan-portfolio03.netlify.app/">
-            <img src={pp5} alt="" className='lg:h-[350px] bg-purple-600 p-2' />
-            </a>
-            </div>
-            <div className='pr-10'>
-              <h1 className='lg:text-lg md:text-md text-sm text-blue-600'>UI/UX Design</h1>
-              <h1 className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl underline  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>PORTFOLIO</h1>
-              <h1 className='lg:text-lg md:text-md text-sm text-pink-600'>JavaScript,HTML,Tailwind CSS,Github</h1>
-            </div>
-          </div>
-        </div>
-
-
           <div className='md:flex-row flex flex-col-reverse	 justify-center 2xl:gap-32 xl:gap-18 lg:gap-8 md:gap-14 sm:gap-8 gap-4 l items-center'>
             <div>
               <h1 className='lg:text-lg md:text-md text-sm text-gray-600'>UI/UX Design</h1>
