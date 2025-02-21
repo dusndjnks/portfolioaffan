@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from './components/Layout'
 import img from "../image/img.jpg"
 import { Link } from 'react-router-dom'
-import Affan from "../image/Affan.MernStack.2024.pdf"
+import Affan from "../image/Affan.mernstack.CV.2025.pdf"
 
 const Home = () => {
   return (
