@@ -4,7 +4,6 @@ import pp1 from "../image/pp1.png"
 import pp2 from "../image/pp2.png"
 import pp3 from "../image/pp3.png"
 import pp4 from "../image/pp4.png"
-import pp5 from "../image/pp5.jpg"
 
 
 const Projects = () => {
