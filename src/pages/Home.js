@@ -2,8 +2,7 @@ import React from 'react'
 import Layout from './components/Layout'
 import img from "../image/img.jpg"
 import { Link } from 'react-router-dom'
-import Affan from "../image/Affan.mernstack.CV.2025.pdf"
-
+import Affan from "../image/resume.pdf"
 const Home = () => {
   return (
     <Layout>
@@ -19,7 +18,7 @@ const Home = () => {
                     <h1 className='md:text-3xl text-xl pb-5'>Software Developer</h1>
                     </div>
                     <div className='flex py-3'>
-                        <a href={Affan} download="resume" className="lg:text-2xl md:text-xl text-lg lg:px-6 md:px-4 px-3 py-2 flex items-center justify-center  text-center rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:bg-gradient-to-l from-indigo-500 via-purple-500 to-pink-500" >Download Resume</a>
+                        <a href={Affan} download="Affan.MERNStack.2025" className="lg:text-2xl md:text-xl text-lg lg:px-6 md:px-4 px-3 py-2 flex items-center justify-center  text-center rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:bg-gradient-to-l from-indigo-500 via-purple-500 to-pink-500" >Download Resume</a>
                         <Link to="contact" className='lg:text-2xl md:text-xl text-lg  lg:px-5 md:px-4 px-2     py-2 border-2 border-black rounded-full mx-2 bg-black text-white'>Contact Info</Link>
                     </div>
                 </div>
