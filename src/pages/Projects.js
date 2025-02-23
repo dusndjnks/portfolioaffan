@@ -4,6 +4,7 @@ import pp1 from "../image/pp1.png"
 import pp2 from "../image/pp2.png"
 import pp3 from "../image/pp3.png"
 import pp4 from "../image/pp4.png"
+import pp5 from "../image/todo.png"
 
 
 const Projects = () => {
@@ -12,20 +13,20 @@ const Projects = () => {
       <hr className='border-2 border-black'/>
 <div className='bg-gray-300'>
             <div className='w-screen   flex items-center justify-center  '>
-                <h1 className='lg:text-6xl md:text-5xl text-4xl  font-semibold pt-5 pb-10 font-extrabold  '>Projects</h1>
+                <h1 className='lg:text-6xl md:text-5xl text-4xl  font-semibold pt-8 pb-10 font-extrabold'>Projects</h1>
             </div>
 
-    <div className='2xl:px-64 xl:px-56 lg:px- md:px-20 sm:px-16 s:px-12 px-4  flex flex-col gap-20 pb-20 '>
+    <div className='xl:px-48 lg:px- md:px-20 sm:px-16 s:px-12 px-4  flex flex-col gap-20 pb-20 '>
 
           <div className='md:flex-row flex flex-col-reverse	 justify-center 2xl:gap-32 xl:gap-18 lg:gap-8 md:gap-14 sm:gap-8 gap-4 l items-center'>
             <div>
-              <h1 className='lg:text-lg md:text-md text-sm text-gray-600'>UI/UX Design</h1>
-              <h className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl underline  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600 '>VS Code Clone</h>
-              <h1 className='lg:text-lg md:text-md text-sm text-blue-800'>JavaScript,HTML,Tailwind CSS,Github,React</h1>
+              <h1 className='lg:text-lg md:text-md text-sm text-gray-600'>Full Stack</h1>
+              <h className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl underline  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-gray-900 '>To-Do App</h>
+              <h1 className='lg:text-lg md:text-md text-sm text-gray-800'>JavaScript,HTML,Tailwind CSS,Github,React,MondoDB,Express.js</h1>
             </div>
             <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
-              <a href="https://mhd-vscode-clone.netlify.app/">
-              <img src={pp3} alt="" className='lg:h-[350px]  bg-blue-500 p-2' />
+              <a href="https://github.com/dusndjnks/client">
+              <img src={pp5} alt="" className='lg:h-[350px]  bg-gray-500 p-2' />
               </a>
             </div>
           </div>
@@ -46,6 +47,19 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        <div className='md:flex-row flex flex-col-reverse	 justify-center 2xl:gap-32 xl:gap-18 lg:gap-8 md:gap-14 sm:gap-8 gap-4 l items-center'>
+            <div>
+              <h1 className='lg:text-lg md:text-md text-sm text-gray-600'>UI/UX Design</h1>
+              <h className='lg:text-6xl md:text-5xl sm:text-4xl text-3xl underline  font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600 '>VS Code Clone</h>
+              <h1 className='lg:text-lg md:text-md text-sm text-blue-800'>JavaScript,HTML,Tailwind CSS,Github,React</h1>
+            </div>
+            <div className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110'>
+              <a href="https://mhd-vscode-clone.netlify.app/">
+              <img src={pp3} alt="" className='lg:h-[350px]  bg-blue-500 p-2' />
+              </a>
+            </div>
+          </div>
      
           <div className='md:flex-row flex flex-col-reverse justify-center 2xl:gap-32 xl:gap-28 lg:gap-16 md:gap-14 sm:gap-8 gap-4 l items-center'>
             <div>
