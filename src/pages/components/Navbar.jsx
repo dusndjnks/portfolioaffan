@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="font-serif bg-gray-300 justify-center h-24 items-center">
             <nav className={`flex h-24  justify-between duration-500 bg-gray-300 relative md:px-20 px-10 md:static ${extendNavbar ? "h-72 pt-8" : "h-24 pt-8"}`}>
                 <div>
-                    <Link to="/" className='md:text-5xl text-3xl s:text-4xl h-24 items-center '>Affan</Link>
+                    <Link to="/" className='md:text-5xl text-3xl s:text-4xl h-24 items-center'>Affan</Link>
                 </div>
                 <div className={`md:text-2xl text-xl gap-3 flex md:flex-row  duration-500 md:static absolute   xs:flex flex-col ${extendNavbar ? " left-10 top-28" : "left-[-200px] top-28"}  `}>
                     <Link to="/about">About</Link>
