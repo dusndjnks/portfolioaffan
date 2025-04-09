@@ -13,13 +13,13 @@ const Projects = () => {
     <Layout>
       <hr className='border-2 border-black'/>
         <div className='bg-gray-300'>
-            <div className='flex items-center justify-center  '>
+            <div className='flex items-center justify-center lg:pb-7 '>
                 <h1 className='lg:text-6xl md:text-5xl text-4xl  font-semibold pt-8 pb-10'>Projects</h1>
             </div>
 
           <div className='md:px-20 sm:px-16 px-6 flex flex-col gap-24 pb-20 bg-gray-300'>
 
-              <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-20">
+              <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-2 2xl:gap-28">
                 <div className="text-center md:text-left">
                   <h2 className="text-sm md:text-base text-fuchsia-500 font-medium">React.js</h2>
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-fuchsia-950 uppercase">Rolling Frames</h1>

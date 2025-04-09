@@ -9,8 +9,8 @@ const Navbar = () => {
     const [extendNavbar , setExtendNavbar] = useState(false)
     
   return (
-        <div className="font-serif bg-gray-300 justify-center h-24 items-center">
-            <nav className={`flex h-24  justify-between duration-500 bg-gray-300 relative md:px-20 px-10 md:static ${extendNavbar ? "h-72 pt-8" : "h-24 pt-8"}`}>
+        <div className="font-serif bg-gray-300 justify-center h-24 items-center z-50">
+            <nav className={`flex h-24 z-50 justify-between duration-500 bg-gray-300 relative md:px-20 px-10 md:static ${extendNavbar ? "h-72 pt-8" : "h-24 pt-8"}`}>
                 <div>
                     <Link to="/" className='md:text-5xl text-3xl s:text-4xl h-24 items-center'>Affan</Link>
                 </div>
