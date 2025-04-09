@@ -15,7 +15,7 @@ const Projects = () => {
       <hr className='border-2 border-black'/>
         <div className='bg-gray-300'>
             <div className='flex items-center justify-center  '>
-                <h1 className='lg:text-6xl md:text-5xl text-4xl  font-semibold pt-8 pb-10 font-extrabold'>Projects</h1>
+                <h1 className='lg:text-6xl md:text-5xl text-4xl  font-semibold pt-8 pb-10'>Projects</h1>
             </div>
 
           <div className='md:px-20 sm:px-16 px-6 flex flex-col gap-24 pb-20 bg-gray-300'>
