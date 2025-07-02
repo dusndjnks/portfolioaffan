@@ -53,8 +53,8 @@ const Contact = () => {
               <h2 className="text-3xl md:text-4xl font-normal text-gray-800 mb-6">
                 Let's Talk
               </h2>
-              <p className="text-gray-600 font-light leading-relaxed mb-8">
-                I am a highly motivated fresher, available for work opportunities. With a strong foundation in JavaScript, HTML and Tailwind CSS, I am eager to learn and contribute to a team. Let's connect!
+             <p className="text-gray-600 font-light leading-relaxed mb-8">
+                I'm a passionate developer who enjoys crafting smooth, modern web apps using JavaScript, React, and Tailwind CSS. I love learning new things and building clean, responsive interfaces that feel great to use.
               </p>
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
