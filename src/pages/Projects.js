@@ -15,8 +15,8 @@ const projectData = [
   {
     title: "Paper Plane Wedding",
     subtitle: "Photography Company",
-    description: "React, Tailwind CSS, Express.js, MongoDB, Node.js, AOS, EmailJS, Netlify",
-    url: "https://paperplanewedding.netlify.app/",
+    description: "React , Tailwind CSS , Cloud Fare , GitHub , Form to Sheet + Email via Apps Script ",
+    url: "https://www.paperplanewedding.com/",
     img: pp3,
     reverse: false
   },
