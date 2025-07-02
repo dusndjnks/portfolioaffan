@@ -1,111 +1,158 @@
-import React from 'react'
-import Layout from './components/Layout'
-import pp1 from "../image/pp1.png"
-import pp2 from "../image/pp2.png"
-import pp3 from "../image/pp3.png"
-import pp5 from "../image/pp10.png"
-import pp6 from "../image/pp9.png"
-import pp7 from "../image/pp8.png"
+import React, { useEffect } from 'react';
+import Layout from './components/Layout';
+import pp1 from "../image/ppp/pp (1).png";
+import pp2 from "../image/ppp/pp (2).png";
+import pp3 from "../image/ppp/pp (3).png";
+import pp4 from "../image/ppp/pp (4).png";
+import pp5 from "../image/ppp/pp (5).png";
+import pp6 from "../image/ppp/pp (6).png";
+import pp7 from "../image/ppp/pp (7).png";
+import pp8 from "../image/ppp/pp8.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+const projectData = [
+  {
+    title: "Paper Plane Wedding",
+    subtitle: "Photography Company",
+    description: "React, Tailwind CSS, Express.js, MongoDB, Node.js, AOS, EmailJS, Netlify",
+    url: "https://paperplanewedding.netlify.app/",
+    img: pp3,
+    reverse: false
+  },
+  {
+    title: "Millennial RK",
+    subtitle: "Photography Company",
+    description: "React, Tailwind CSS, Framer Motion, AOS, GitHub, Netlify",
+    url: "https://millennialrk.netlify.app/",
+    img: pp4,
+    reverse: true
+  },
+  {
+    title: "Rolling Frames",
+    subtitle: "Photography Company",
+    description: "HTML, Tailwind CSS, JavaScript, React, GitHub, Flowbite",
+    url: "https://candidnovia.netlify.app/",
+    img: pp5,
+    reverse: false
+  },
+  {
+    title: "Daily Eggs",
+    subtitle: "Egg Company",
+    description: "HTML, Tailwind CSS, JavaScript, React, GitHub, Figma",
+    url: "https://mhddailyeggs.netlify.app/",
+    img: pp6,
+    reverse: true
+  },
+  {
+    title: "To-Do App",
+    subtitle: "Full Stack",
+    description: "JavaScript, HTML, Tailwind CSS, GitHub, React, MongoDB, Express.js",
+    url: "https://github.com/dusndjnks/client",
+    img: pp8,
+    reverse: false
+  },
+  {
+    title: "LEGACY ELEGANCE",
+    subtitle: "Ecommerce Site",
+    description: "JavaScript, HTML, Tailwind CSS, GitHub, React (Full Stack)",
+    url: "https://legacyelegance-mhd.netlify.app/",
+    img: pp7,
+    reverse: true
+  },
+  {
+    title: "VS Code Clone",
+    subtitle: "UI/UX Design",
+    description: "JavaScript, HTML, Tailwind CSS, GitHub, React",
+    url: "https://mhd-vscode-clone.netlify.app/",
+    img: pp1,
+    reverse: false
+  },
+  {
+    title: "PATEK PHILIPPE",
+    subtitle: "Ecommerce Site",
+    description: "JavaScript, HTML, Tailwind CSS, React, GitHub, Netlify (Nested Route)",
+    url: "https://mhdpatekphilippe.netlify.app/",
+    img: pp2,
+    reverse: true
+  }
+];
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({ 
+      duration: 800, 
+      once: true,
+      easing: 'ease-in-out-quint',
+      offset: 120
+    });
+  }, []);
+
   return (
     <Layout>
-      <hr className='border-2 border-black'/>
-        <div className='bg-gray-300'>
-            <div className='flex items-center justify-center lg:pb-7 '>
-                <h1 className='lg:text-6xl md:text-5xl text-4xl  font-semibold pt-8 pb-10'>Projects</h1>
-            </div>
+      <div className="border-y-2 border-gray-800 bg-white"> {/* Thicker border */}
+        <section className="py-24 px-6 sm:px-8">
+          <div className="max-w-4xl mx-auto text-center mb-20" data-aos="fade-up">
+            <h1 className="text-4xl md:text-5xl font-light tracking-tight text-gray-900 mb-4">
+              Project Portfolio
+            </h1>
+            <div className="w-24 h-0.5 bg-gray-800 mx-auto mt-6" /> 
+          </div>
 
-          <div className='md:px-20 sm:px-16 px-6 flex flex-col gap-24 pb-20 bg-gray-300'>
-
-              <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-2 2xl:gap-28">
-                <div className="text-center md:text-left">
-                  <h2 className="text-sm md:text-base text-fuchsia-500 font-medium">React.js</h2>
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-fuchsia-950 uppercase">Rolling Frames</h1>
-                  <p className="text-sm md:text-base text-fuchsia-800 mt-2">HTML, Tailwind CSS, JavaScript, React, GitHub, Flowbite</p>
+          <div className="max-w-7xl mx-auto space-y-28">
+            {projectData.map((project, index) => (
+              <div
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={(index % 3) * 100}
+                className={`flex flex-col ${project.reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} 
+                items-center gap-12 lg:gap-16 bg-white p-8 lg:p-10 rounded-xl shadow-sm 
+                border-2 border-gray-300 hover:shadow-md transition-all duration-300`} 
+              >
+                <div className="w-full lg:w-1/2">
+                  <a 
+                    href={project.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img
+                      src={project.img}
+                      alt={project.title}
+                      className="w-full h-auto max-h-[500px] object-contain rounded-lg border-2 border-gray-200 shadow-lg" /* Free size + border */
+                    />
+                  </a>
                 </div>
-                <div className="transition-transform duration-300 transform hover:-translate-y-1 hover:scale-105">
-                  <a href="https://candidnovia.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <img src={pp7} alt="Rolling Frames" className="lg:h-[350px] bg-fuchsia-800 p-2 rounded-lg shadow-md" />
+                
+                <div className="w-full lg:w-1/2 space-y-6">
+                  <div className="space-y-3">
+                    <span className="text-xs font-medium text-gray-600 tracking-widest uppercase">
+                      {project.subtitle}
+                    </span>
+                    <h2 className="text-2xl md:text-3xl font-normal text-gray-800">
+                      {project.title}
+                    </h2>
+                    <p className="text-gray-600 font-light leading-relaxed">
+                      {project.description}
+                    </p>
+                  </div>
+                  
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors duration-200 border-b-2 border-gray-300 pb-1" /* Thicker underline */
+                  >
+                    View Project →
                   </a>
                 </div>
               </div>
-
-              <div className="flex flex-col lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-20 xl:gap-56">
-                <div className="transition-transform duration-300 transform hover:-translate-y-1 hover:scale-105">
-                  <a href="https://mhddailyeggs.netlify.app/" target="_blank" rel="noopener noreferrer">
-                    <img src={pp6} alt="Daily Eggs" className="lg:h-[350px] bg-[#2ba9f2] p-2 rounded-lg shadow-md" />
-                  </a>
-                </div>
-                <div className="text-center md:text-left">
-                  <h2 className="text-sm md:text-base text-[#3093CC] font-medium">React.js</h2>
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#3093CC] to-blue-900 uppercase">Daily Eggs</h1>
-                  <p className="text-sm md:text-base text-blue-900 mt-2">HTML, Tailwind CSS, JavaScript, React, GitHub, Figma</p>
-                </div>
-              </div>
-
-              <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-20">
-                <div className="text-center md:text-left">
-                  <h2 className="text-sm md:text-base text-gray-600 font-medium">Full Stack</h2>
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold underline bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-gray-900">To-Do App</h1>
-                  <p className="text-sm md:text-base text-gray-800 mt-2">JavaScript, HTML, Tailwind CSS, GitHub, React, MongoDB, Express.js</p>
-                </div>
-                <div className="transition-transform duration-300 transform hover:-translate-y-1 hover:scale-105">
-                  <a href="https://github.com/dusndjnks/client">
-                    <img src={pp5} alt="To-Do App" className="lg:h-[350px] bg-gray-500 p-2 rounded-lg shadow-md" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex flex-col lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-20">
-                <div className="transition-transform duration-300 transform hover:-translate-y-1 hover:scale-105">
-                  <a href="https://legacyelegance-mhd.netlify.app/">
-                    <img src={pp2} alt="Legacy Elegance" className="lg:h-[350px] bg-yellow-300 p-2 rounded-lg shadow-md" />
-                  </a>
-                </div>
-                <div className="text-center md:text-left">
-                  <h2 className="text-sm md:text-base text-yellow-600 font-medium">Ecommerce Site</h2>
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold underline bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-green-600">LEGACY ELEGANCE</h1>
-                  <p className="text-sm md:text-base text-green-800 mt-2">JavaScript, HTML, Tailwind CSS, GitHub, React (Full Stack)</p>
-                </div>
-              </div>
-
-              <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-20">
-                <div className="text-center md:text-left">
-                  <h2 className="text-sm md:text-base text-gray-600 font-medium">UI/UX Design</h2>
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold underline bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-blue-600">VS Code Clone</h1>
-                  <p className="text-sm md:text-base text-blue-800 mt-2">JavaScript, HTML, Tailwind CSS, GitHub, React</p>
-                </div>
-                <div className="transition-transform duration-300 transform hover:-translate-y-1 hover:scale-105">
-                  <a href="https://mhd-vscode-clone.netlify.app/">
-                    <img src={pp3} alt="VS Code Clone" className="lg:h-[350px] bg-blue-500 p-2 rounded-lg shadow-md" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex flex-col lg:flex-row justify-center items-center gap-6 sm:gap-10 md:gap-16 lg:gap-20 xl:gap-64">
-              <div className="transition-transform duration-300 transform hover:-translate-y-1 hover:scale-105">
-                  <a href="https://mhdpatekphilippe.netlify.app/">
-                    <img src={pp1} alt="Patek Philippe" className="lg:h-[350px] bg-orange-300 p-2 rounded-lg shadow-md" />
-                  </a>
-                </div>
-                <div className="text-center md:text-left">
-                  <h2 className="text-sm md:text-base text-red-800 font-medium">Ecommerce Site</h2>
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold underline bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-800">PATEK PHILIPPE</h1>
-                  <p className="text-sm md:text-base text-orange-800 mt-2">JavaScript, HTML, Tailwind CSS, React, GitHub, Netlify (Nested Route)</p>
-                </div>
-              </div>
-
-            </div>
-
-</div>
-
-
-
-<hr className='border-2 border-black'/>
+            ))}
+          </div>
+        </section>
+      </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

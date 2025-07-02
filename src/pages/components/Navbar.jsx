@@ -1,34 +1,54 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Navbar = () => {
+  const [extendNavbar, setExtendNavbar] = useState(false);
+  const location = useLocation();
 
-    const [extendNavbar , setExtendNavbar] = useState(false)
-    
+  // Auto-close menu on route change
+  React.useEffect(() => {
+    setExtendNavbar(false);
+  }, [location.pathname]);
+
   return (
-        <div className="font-serif bg-gray-300 justify-center h-24 items-center z-50">
-            <nav className={`flex h-24 z-50 justify-between duration-500 bg-gray-300 relative md:px-20 px-10 md:static ${extendNavbar ? "h-72 pt-8" : "h-24 pt-8"}`}>
-                <div>
-                    <Link to="/" className='md:text-5xl text-3xl s:text-4xl h-24 items-center'>Affan</Link>
-                </div>
-                <div className={`md:text-2xl text-xl gap-3 flex md:flex-row  duration-500 md:static absolute   xs:flex flex-col ${extendNavbar ? " left-10 top-28" : "left-[-200px] top-28"}  `}>
-                    <Link to="/about">About</Link>
-                    <Link to="/experience">Experience</Link>
-                    <Link to="/project">Projects</Link>
-                    <Link to="/contact">Contact</Link>
-                </div>
-                <div className='md:hidden' onClick={() => {setExtendNavbar(open => !open)}}>
-                    {
-                        extendNavbar ? <CloseIcon/> : <MenuIcon/>
-                    }
-                </div>
-            </nav>
-        </div>  
-  )
-}
+    <header className="bg-gray-300 font-serif z-50 w-full shadow-md sticky top-0">
+      <nav className="max-w-7xl mx-auto px-6 sm:px-12 md:px-20 flex justify-between items-center h-24">
+        {/* Logo */}
+        <Link to="/" className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
+          Affan
+        </Link>
 
-export default Navbar
+        {/* Desktop Menu */}
+        <div className="hidden md:flex space-x-8 text-xl md:text-2xl text-gray-700">
+          <Link to="/about" className="hover:text-black transition">About</Link>
+          <Link to="/experience" className="hover:text-black transition">Experience</Link>
+          <Link to="/project" className="hover:text-black transition">Projects</Link>
+          <Link to="/contact" className="hover:text-black transition">Contact</Link>
+        </div>
 
+        {/* Toggle Button (Mobile) */}
+        <div className="md:hidden text-gray-800 z-50" onClick={() => setExtendNavbar(!extendNavbar)}>
+          {extendNavbar ? <CloseIcon fontSize="large" /> : <MenuIcon fontSize="large" />}
+        </div>
+      </nav>
+
+      {/* Mobile Menu */}
+      <div
+        className={`md:hidden fixed top-24 left-0 w-full bg-gray-300 z-40 overflow-hidden transition-all duration-500 ease-in-out ${
+          extendNavbar ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
+        }`}
+      >
+        <div className="flex flex-col items-center space-y-6 py-6 text-xl text-gray-800">
+          <Link to="/about" className="hover:text-black transition">About</Link>
+          <Link to="/experience" className="hover:text-black transition">Experience</Link>
+          <Link to="/project" className="hover:text-black transition">Projects</Link>
+          <Link to="/contact" className="hover:text-black transition">Contact</Link>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Navbar;

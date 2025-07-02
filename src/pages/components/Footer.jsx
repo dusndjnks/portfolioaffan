@@ -1,15 +1,36 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-        <div className='flex h-24  bg-gray-300 items-center justify-center'> 
-          <div className='flex   md:gap-20 s:gap-10 gap-5 text-xl  md:text-2xl font-serif'>
-          <a href="https://www.instagram.com/a_ffan/profilecard/?igsh=MWM0dm81bXNncWhobA==">Instagram</a>
-          <a href="https://www.linkedin.com/in/muhammed-affan-87456724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
-          <a href="https://github.com/dusndjnks">GitHub</a>
-        </div>
-        </div>
-  )
-}
+    <footer className="bg-gray-300 h-24 flex items-center justify-center font-serif">
+      <div className="flex gap-6 sm:gap-10 md:gap-20 text-lg sm:text-xl md:text-2xl text-gray-800">
+        <a
+          href="https://www.instagram.com/_a_ffan_/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-black transition-colors duration-300"
+        >
+          Instagram
+        </a>
+        <a
+          href="https://www.linkedin.com/in/muhammed-affan-87456724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-black transition-colors duration-300"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/dusndjnks"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-black transition-colors duration-300"
+        >
+          GitHub
+        </a>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
