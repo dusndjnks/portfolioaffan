@@ -13,7 +13,7 @@ const Navbar = () => {
   }, [location.pathname]);
 
   return (
-    <header className="bg-gray-300 font-serif z-50 w-full shadow-md sticky top-0">
+    <header className="bg-gray-200 font-serif z-50 w-full shadow-md sticky top-0">
       <nav className="max-w-7xl mx-auto px-6 sm:px-12 md:px-20 flex justify-between items-center h-24">
         {/* Logo */}
         <Link to="/" className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">

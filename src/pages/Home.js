@@ -46,7 +46,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col md:flex-row items-center justify-between sm:gap-10 gap-4 bg-gray-900 text-white px-5 sm:px-20 md:px-14 lg:px-32 xl:px-56 2xl:px-72 py-16 md:py-14 lg:py-20 min-h-screen">
+      <div className="flex flex-col md:flex-row items-center justify-between sm:gap-10 gap-4 bg-gray-900 text-white px-5 sm:px-20 md:px-14 lg:px-32 xl:px-56 2xl:px-72 py-10 md:py-14 lg:py-20 min-h-screen">
         {/* Image Section */}
         <motion.div
           initial={{ scale: 0.95, opacity: 0 }}
