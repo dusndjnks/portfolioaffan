@@ -42,15 +42,15 @@ const Experience = () => {
   return (
     <Layout>
       <div className="border-y-2 border-gray-800 bg-white">
-        <section className="py-24 px-6 sm:px-8">
-          <div className="max-w-4xl mx-auto text-center mb-20" data-aos="fade-up">
+        <section className="md:py-24 py-10 px-6 sm:px-8">
+          <div className="max-w-4xl mx-auto text-center mb-10 md:mb-20" data-aos="fade-up">
             <h1 className="text-4xl md:text-5xl font-light tracking-tight text-gray-900 mb-4">
               Experience
             </h1>
-            <div className="w-24 h-0.5 bg-gray-800 mx-auto mt-6" />
+            <div className="w-24 h-0.5 bg-gray-800 mx-auto " />
           </div>
 
-          <div className="max-w-7xl mx-auto space-y-28">
+          <div className="max-w-7xl mx-auto md:space-y-20 sm:space-y-14 space-y-10">
             {experiences.map((exp, index) => (
               <div
                 key={index}
