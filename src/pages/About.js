@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Layout from './components/Layout';
 import img3 from "../image/img1.jpg";
 import { FiMail, FiPhone, FiCode, FiCpu, FiLayout } from 'react-icons/fi';
