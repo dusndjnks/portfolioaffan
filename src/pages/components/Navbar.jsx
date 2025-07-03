@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className="bg-gray-200 font-serif z-50 w-full shadow-md sticky top-0">
       <nav className="max-w-7xl mx-auto px-6 sm:px-12 md:px-20 flex justify-between items-center md:h-24 h-20">
         {/* Logo */}
-        <Link to="/" className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
+        <Link to="/" className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-800">
           Affan
         </Link>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed top-24 left-0 w-full bg-gray-200 z-40 overflow-hidden transition-all duration-500 ease-in-out ${
+        className={`md:hidden fixed md:top-24 top-20 left-0 w-full bg-gray-200 z-40 overflow-hidden transition-all duration-500 ease-in-out ${
           extendNavbar ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
         }`}
       >
