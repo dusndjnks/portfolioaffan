@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 h-24 flex items-center justify-center font-serif">
+    <footer className="bg-gray-200 h-20 md:h-24 flex items-center justify-center font-serif">
       <div className="flex gap-6 sm:gap-10 md:gap-20 text-lg sm:text-xl md:text-2xl text-gray-800">
         <a
           href="https://www.instagram.com/_a_ffan_/"
